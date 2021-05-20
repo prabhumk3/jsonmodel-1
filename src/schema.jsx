@@ -252,7 +252,7 @@ const handleAddObject = () => {
 
   return (
     <div>
-      <h3 style={{ textAlign: "center" }}>XDM Modeling Tool</h3>
+      <h3 style={{ textAlign: "center" }}>XDM Modeling Tool 2.0</h3>
 
       <div className="split left">
         <div className="centered ">

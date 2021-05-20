@@ -64,6 +64,7 @@ const RightPanel = (props) => {
                 console.log(prBody);
                 console.log(prBranch);
                 console.log(jsonData);
+                console.log(process.env.REACT_APP_TOKEN)
 
                 let jsonString = JSON.stringify(obj.jsonData.class)
                 // console.log(jsonString);
