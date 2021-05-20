@@ -28,7 +28,7 @@ const Schema = () => {
 
   const MyOctokit = Octokit.plugin(createPullRequest);
 
-  const TOKEN = "7d606602e46e6692b35e8535f84170f045fd09d1"; // create token at https://github.com/settings/tokens/new?scopes=repo
+  const TOKEN = "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"; // create token at https://github.com/settings/tokens/new?scopes=repo
   const octokit = new MyOctokit({
     auth: TOKEN,
   });
