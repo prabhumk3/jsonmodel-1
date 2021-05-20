@@ -5,5 +5,4 @@ function App() {
     <Schema2/>
   )
 }
-
 export default App;
