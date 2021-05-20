@@ -297,7 +297,7 @@ const getLabelNamesClass = () => {
         <div >
 
             <span className="border border-secondary" >
-                <div style={{ backgroundColor: "coral", height : 48,textAlign : "center", paddingTop : 10}}>Experience Data Model (XDM) Tool</div>
+                <div style={{ backgroundColor: "coral", height : 48,textAlign : "center", paddingTop : 10}}>Experience Data Model (XDM) Tool 2.0</div>
                 <div>
                     <Grid container alignItems="top" className={classes.root}>
                      

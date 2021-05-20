@@ -332,7 +332,7 @@ const Schema2 = () => {
 
     return (<>
         {/* Navigation Bar */}
-        <div style={{ background: "linear-gradient(to left, #e66465, #9198e5)", color: 'white', height : 48,textAlign : "center", paddingTop : 10}}>Experience Data Model (XDM) Tool</div>
+        <div style={{ background: "linear-gradient(to left, #e66465, #9198e5)", color: 'white', height : 48,textAlign : "center", paddingTop : 10}}>Experience Data Model (XDM) Tool 2.0</div>
         
         {/* Main Container */}
         <div style={{width: '100%', height: '100vh', background: 'blue', display: 'flex'}}>
