@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider, defaultTheme} from '@adobe/react-spectrum';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider theme={defaultTheme} colorScheme="light">
+      <App/>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
