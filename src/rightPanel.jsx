@@ -28,7 +28,7 @@ const RightPanel = (props) => {
 
     const { createPullRequest } = require("octokit-plugin-create-pull-request");
     const MyOctokit = Octokit.plugin(createPullRequest);
-    const TOKEN = "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"; // create token at https://github.com/settings/tokens/new?scopes=repo
+    const TOKEN = process.env.REACT_APP_TOKEN; // create token at https://github.com/settings/tokens/new?scopes=repo
     const octokit = new MyOctokit({
         auth: TOKEN,
     });
