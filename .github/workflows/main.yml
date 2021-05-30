@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
+        with:
+          persist-credentials: false 
       - name: Build
         run: |
           npm install
@@ -18,5 +20,6 @@ jobs:
       - name: Deploy
         uses: prabhum2/jsonmodel
         with:
+          ACCESS_TOKEN: '${{ secrets.REACT_APP_TOKEN }}'
           BRANCH: gh-pages
-          FOLDER: dist
+          FOLDER: build
