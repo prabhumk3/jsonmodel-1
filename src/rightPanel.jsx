@@ -201,7 +201,7 @@ const RightPanel = (props) => {
             colors={{
                 string: "#DAA520" // overrides theme colors with whatever color value you want
             }}
-            // height="100%"
+            // height="100% "
         />
         
     </div> : <div> <ActionButton width="size-115" marginEnd="size-10"
